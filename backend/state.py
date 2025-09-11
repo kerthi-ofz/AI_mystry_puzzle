@@ -1,0 +1,3 @@
+# backend/state.py
+
+jobs = {}
