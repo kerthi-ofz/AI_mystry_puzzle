@@ -2,7 +2,7 @@ import requests
 import json
 
 class MysteryGenerator:
-    def __init__(self, model_name="llama3.2:3b", base_url="http://localhost:11434"):
+    def __init__(self, model_name="llama3.2:1b", base_url="http://localhost:11434"):
         self.model_name = model_name
         self.base_url = base_url
     
